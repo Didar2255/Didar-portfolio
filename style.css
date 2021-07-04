@@ -1,7 +1,18 @@
-body{
-    background-image: url();
-    margin: 0;
 
+body{
+    margin: 0;
+}
+.menu-bar{
+    background:rgb(253, 220, 110);
+    text-align: center;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color:rgb(94, 0, 0);
+}
+.menu-bar ul li{
+    width: 120px;
 }
 h1{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -10,6 +21,10 @@ h1{
 .Small-details{
     display: flex;
     margin-bottom: 100px;
+}
+.Small-details p{
+    font-size: 20px;
+
 }
 .width{
     width: 70%;
@@ -79,6 +94,10 @@ footer p{
 }
 .Exprince h1{
     padding-left: 20px;
+    padding-bottom: 40px;
+}
+.become{
+    color: rgb(182, 20, 20);
 }
 
 
